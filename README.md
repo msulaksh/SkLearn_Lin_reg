@@ -11,3 +11,14 @@ Pandas,
 NumPy,
 Scikit Learn,
 MatPlotLib.
+
+Below are the import Statements:
+
+import pandas as pd
+import numpy as np
+from sklearn import linear_model
+from sklearn import metrics
+from pandas import read_csv
+from sklearn.model_selection import train_test_split
+from matplotlib import pyplot
+
