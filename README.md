@@ -7,18 +7,18 @@ I'll be using a CSV file, where i'll be using two columns, Date and Amount.
 
 Below is the list of libraries i'll be using:
 
-Pandas,
-NumPy,
-Scikit Learn,
-MatPlotLib.
+Pandas, <br>
+NumPy, <br>
+Scikit Learn, <br>
+MatPlotLib. <br>
 
 Below are the import Statements:
 
-import pandas as pd
-import numpy as np
-from sklearn import linear_model
-from sklearn import metrics
-from pandas import read_csv
-from sklearn.model_selection import train_test_split
-from matplotlib import pyplot
+import pandas as pd <br>
+import numpy as np <br>
+from sklearn import linear_model <br>
+from sklearn import metrics <br>
+from pandas import read_csv <br>
+from sklearn.model_selection import train_test_split <br>
+from matplotlib import pyplot <br>
 
