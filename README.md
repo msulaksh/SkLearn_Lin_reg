@@ -22,3 +22,6 @@ from pandas import read_csv <br>
 from sklearn.model_selection import train_test_split <br>
 from matplotlib import pyplot <br>
 
+
+
+Final Aim is to predict a numberic value i.e Amount, based on past amounts and in a time series format.
