@@ -15,3 +15,11 @@ file_data.plot(kind='bar', x="Year", y="TotalAmount")
 file_data.plot(kind='area')
 file_data.plot.scatter(x="Year", y="TotalAmount")
 plot.show()
+
+#Create DataFrame for futher use
+df = pd.DataFrame(file_data)     
+print(df.head)
+df_x=df.Year
+df_y=df.TotalAmount
+df_x=df_x.values.reshape(-1,1)
+print(df_y.describe())
