@@ -23,3 +23,13 @@ df_x=df.Year
 df_y=df.TotalAmount
 df_x=df_x.values.reshape(-1,1)
 print(df_y.describe())
+
+reg = linear_model.LinearRegression()   #pulling LinearRegression function
+
+x_train, x_test, y_train, y_test = train_test_split(df_x, df_y, test_size=0.1, random_state=1)  #assigning the data to train and test 
+
+reg.fit(x_train,y_train)  # Fitting the data into model.
+
+a=reg.predict(x_test) #applying predict 
+
+print(y_train)  
